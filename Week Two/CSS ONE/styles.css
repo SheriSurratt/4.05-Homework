@@ -1,0 +1,67 @@
+/*this is the header*/
+#topHeader{
+border: 20px groove orange;
+color: yellow;
+text-align: center;
+/* boxed model */
+margin-left: 20px;
+margin-right: 50px;
+padding-right: 30px;
+padding-top: 40px;
+padding-bottom: 100px;
+position: sticky;
+
+}
+
+/* .divOne styling */
+.divOne{
+    font-family: Verdana;
+    font-weight: 400;
+    font-size: large;
+    background: green;
+    border: 10px double purple;
+    color:saddlebrown;
+    position: absolute;
+}
+
+.divTwo{
+    text-align: center;
+    border: 3px dotted gold;
+    background-color: gray;
+    margin: 100px;
+    border-style: dotted dashed solid double; 
+}
+
+/* everything in .divTwo h3 will be that specific color */
+.divTwo ,h3{
+    color: hotpink;
+}
+
+a:visited{
+    color: indigo;
+}
+
+a:hover{
+    color: lightcoral;
+}
+
+a:active{
+    color: magenta;
+}
+.divThree{
+    height: 50%;
+    width: 50%;
+    align-items: center;
+    position: relative;
+}
+.divContent{
+    background-color:yellowgreen;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%; 
+    align-items: center;
+    margin: 0px auto;
+
+    /* border-bottom-right-radius: 100px; */
+}
+
